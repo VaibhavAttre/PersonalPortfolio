@@ -34,7 +34,7 @@ body {
     border: 10px solid #ddbea9;
     width: 25%;
     margin:3.4%;
-    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1), border 1s; 
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1), border 0.5s; 
 }
 
 .portfolio-container {
