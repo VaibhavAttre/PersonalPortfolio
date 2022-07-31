@@ -12,29 +12,31 @@ body {
     left: 2rem;
     font-size: 5rem;
     text-align: left;
-    border-bottom: 2px white solid;
-    width: 30%
+    width: 30%;
+
 }
 
 .WebsiteLogo{
     float: left;
-    width: 10rem;
+    width: 8rem;
 }
 
 .portfolio-heading {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Amatic SC', cursive;
     margin-bottom: 2rem;
     text-align: left;
-    border-bottom: 2px white solid;
-    width: 30%
+    background-color: #e6ccb2;
+    width: 30%;
+    padding-bottom: 1rem;
 }
 
 .portfolio  {
+    cursor: pointer;
     border: 10px solid #ddbea9;
-    width: 25%;
+    width: 24%;
     margin:3.4%;
-    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1), border 0.5s; 
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1), box-shadow 0.2s; 
 }
 
 .portfolio-container {
@@ -43,7 +45,7 @@ body {
 }
 
 .portfolio:hover  {
-    border: 10px solid #cb997e;
+    box-shadow: 0 0 10px 10px #cb997e;
     background: #6b705c;
     transform: scale(1.1);
 }
